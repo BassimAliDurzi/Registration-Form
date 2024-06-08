@@ -25,7 +25,26 @@
           <input type="password" pattern="[a-z0-9]{8,}" required
         /></label>
       </fieldset>
-      <fieldset></fieldset>
+      <fieldset>
+        <legend>Account type (required)</legend>
+        <label for="personal"
+          ><input
+            type="radio"
+            id="personal"
+            value="personal"
+            name="account-type"
+            checked
+          />Personal</label
+        >
+        <label for="business"
+          ><input
+            type="radio"
+            id="business"
+            value="business"
+            name="account-type"
+          />Business</label
+        >
+      </fieldset>
       <fieldset></fieldset>
     </form>
   </body>
