@@ -29,6 +29,7 @@
         <legend>Account type (required)</legend>
         <label for="personal"
           ><input
+            class="inline"
             type="radio"
             id="personal"
             value="personal"
@@ -38,6 +39,7 @@
         >
         <label for="business"
           ><input
+            class="inline"
             type="radio"
             id="business"
             value="business"
@@ -69,7 +71,7 @@
           <textarea
             name="bio"
             id="bio"
-            rows="5"
+            rows="10"
             cols="30"
             placeholder="Explain why you like us?"
           >
@@ -77,7 +79,7 @@
         </label>
       </fieldset>
       <label for="terms-conditions">
-        <input type="checkbox" required /> I accept the
+        <input id="terms-conditions" class="inline" type="checkbox" required /> I accept the
         <a href="www.registrationform.com">terms and conditions</a>
       </label>
       <label for="submit"><input type="submit" /></label>
